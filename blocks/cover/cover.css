@@ -1,4 +1,5 @@
 .cover {
+  grid-area: cover;
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
@@ -11,6 +12,7 @@
 
 .cover:hover .cover__background{
   opacity: 0.3;
+  transition: opacity .3s ease;
 }
 
 @media screen and (max-width: 1279px) {

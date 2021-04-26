@@ -1,4 +1,5 @@
 .lead__caption {
+  grid-area: lead;
   align-self: flex-start;
   font-weight: 400;
   font-size: 10px;

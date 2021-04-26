@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraphs {
   grid-area: paragraph;
   font-size: 18px;
   line-height: 29px;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1023px) {
- .place__paragraph {
+ .place__paragraphs {
    font-size: 16px;
    line-height: 26px;
  }
 }
 
 @media screen and (max-width: 767px) {
-  .place__paragraph {
+  .place__paragraphs {
     font-size: 16px;
     line-height: 26px;
   }

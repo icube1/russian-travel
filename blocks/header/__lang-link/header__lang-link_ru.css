@@ -8,6 +8,13 @@
   text-align: right;
   margin-left: 18px;
 }
+
+.header__lang-link_ru:hover {
+  opacity: .5;
+  transition: opacity .3s ease;
+
+}
+
 @media screen and (max-width: 767px) {
  .header__lang-link_ru {
    font-size: 18px;

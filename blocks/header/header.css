@@ -1,4 +1,5 @@
 .header{
+  grid-area: header;
   min-height: 52px;
   padding: 0;
   text-decoration: none;
