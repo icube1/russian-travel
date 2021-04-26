@@ -1,13 +1,17 @@
 .place {
+  margin-bottom: 80px;
   display: grid;
   gap: 40px;
   grid-template-columns: 460px 484px;
-  grid-template-rows: 110px 110px 220px 220px;
+  grid-template-rows: auto 220px 220px;
   grid-template-areas:
-  "title ."
   "title website"
   "image paragraph"
   "image paragraph";
+}
+
+.place:last-child .place {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
