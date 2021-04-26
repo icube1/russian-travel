@@ -1,9 +1,9 @@
 .cover__background {
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- opacity: .7;
- background-color: black;
- z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: .7;
+  background-color: black;
+  z-index: -1;
 }

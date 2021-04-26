@@ -5,6 +5,7 @@
   min-height: 615px;
   object-fit: cover;
 }
+
 @media screen and (max-width: 1279px) {
   .lead__image {
     max-width: 928px;
@@ -26,4 +27,3 @@
     object-fit: scale-down;
   }
 }
-
