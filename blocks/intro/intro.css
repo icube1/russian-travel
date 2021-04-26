@@ -21,6 +21,7 @@
  .intro {
    max-width: 720px;
    min-height: 429px;
+   margin-top: 88px;
  }
 }
 
@@ -28,5 +29,6 @@
   .intro {
     max-width: 288px;
     min-height: 754px;
+    margin-top: 64px;
   }
 }

@@ -1,7 +1,7 @@
 .cover {
   font-family: Inter;
   color: white;
-  
+
   grid-area: cover;
   width: 100%;
   max-width: 1184px;
@@ -33,6 +33,7 @@
     width: calc(100% + 24px*2);
     margin-left: -24px;
     margin-right: -24px;
+    margin-top: 90px;
     max-width: 768px;
     min-height: 480px;
   }
@@ -45,6 +46,7 @@
     width: calc(100% + 16px*2);
     margin-left: -16px;
     margin-right: -16px;
+    margin-top: 66px;
   }
 }
 
