@@ -1,4 +1,7 @@
 .cover {
+  font-family: Inter;
+  color: white;
+  
   grid-area: cover;
   width: 100%;
   max-width: 1184px;

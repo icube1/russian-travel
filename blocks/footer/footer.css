@@ -1,4 +1,6 @@
 .footer {
+  font-family: Inter;
+  color: white;
   grid-area: footer;
   margin: 0;
   margin-top: 92px;

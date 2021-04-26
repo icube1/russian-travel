@@ -1,4 +1,7 @@
 .lead {
+  grid-area: lead;
+  font-family: Inter;
+  color: white;
   margin-left: 100px;
   margin-right: 100px;
   max-width: 984px;

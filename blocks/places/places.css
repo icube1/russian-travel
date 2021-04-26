@@ -1,4 +1,6 @@
 .places {
+  font-family: Inter;
+  color: white;
   grid-area: places;
   margin: 92px 100px;
   object-fit: contain;

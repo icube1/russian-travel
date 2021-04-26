@@ -1,6 +1,7 @@
 .intro {
   grid-area: intro;
   font-family: Inter;
+  color: white;
   margin-top: 5.75rem;
   margin-left: 100px;
   max-width: 690px;
