@@ -1,9 +1,30 @@
 .intro {
   font-family: Inter;
   margin-top: 5.75rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 61.5rem;
+  margin-left: 100px;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+ .intro {
+   max-width: 720px;
+   min-height: 429px;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    min-height: 754px;
+  }
 }

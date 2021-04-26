@@ -1,3 +1,5 @@
 .lead__image_path {
   margin-top: 10%;
+  object-fit:cover;
+  width: 100%;
 }
