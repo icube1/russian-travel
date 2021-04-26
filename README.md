@@ -3,7 +3,7 @@
 
 ### Адаптивная веб-страница "Путешествия по России", описывающая значимые места на карте России
 ###
-[проект на github pages](https://chichazavr.github.io/russian-travel/)
+[проект на github pages](https://icube1.github.io/russian-travel/)
 
 **Состоит из:**
 
