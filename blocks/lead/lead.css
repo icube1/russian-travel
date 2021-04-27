@@ -4,7 +4,6 @@
   color: white;
   margin: 0 auto;
   max-width: 984px;
-  min-height: 1005px;
   margin-top: 3.5rem;
   display: flex;
   justify-content: center;
@@ -30,7 +29,6 @@
   .lead {
     width: calc(100% + 16px*2);
     max-width: 320px;
-    min-height: 406px;
   }
 
 }
