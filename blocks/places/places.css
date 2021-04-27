@@ -2,21 +2,21 @@
   font-family: Inter;
   color: white;
   grid-area: places;
-  margin: 92px 100px;
+  margin: 92px auto;
   object-fit: contain;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
   .places {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 92px;
+    margin: 92px auto;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
+    max-width: 720px;
     margin-top: 88px;
   }
 }
