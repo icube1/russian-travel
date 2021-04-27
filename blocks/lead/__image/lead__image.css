@@ -1,6 +1,4 @@
 .lead__image {
-  background-image: url(../../../images/lead/__lead.png);
-  background-size: cover;
   width: 100%;
   min-height: 615px;
   object-fit: cover;
@@ -15,7 +13,7 @@
 
 @media screen and (max-width: 1023px) {
   .lead__image {
-    max-width: 768px;
+    max-width: 754px;
     min-height: 480px;
   }
 }

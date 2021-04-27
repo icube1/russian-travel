@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 1023px) {
   .lead {
-    width: calc(100% + 24px*2);
+    width: calc(100% + 24px*2); /*14px - колесо прокрутки, 48px - паддинги у page */
     margin-left: -24px;
     margin-right: -24px;
   }
