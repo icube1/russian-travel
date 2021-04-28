@@ -1,8 +1,9 @@
 .cover__link {
-  /* background-image: url(../../../images/cover/__background.jpg);
-  background-size: contain;
+  background-image: url(../../../images/cover/__background.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
+
   position: relative;
   padding: 245px 0;
   opacity: 1;
@@ -19,42 +20,39 @@
 
 .cover__link:before{
   content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.3;
-  z-index: -1;
-  transition: opacity .3s ease;
+    display: block;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* z-index: -1; */
+    transition: opacity 0.2s linear;
 }
 
-.cover__link:hover:before {
+.cover__link:hover::before {
   opacity: 0.7;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__link {
-    width: calc(100% - 14px);
-    max-width: 1023px;
-    padding: 190px 0;
+    padding: 195px 0;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__link {
-    width: 100%;
-    max-width: 768px;
     padding: 115px 0;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__link {
     max-width: 320px;
-    width: 100%;
     padding: 25px 0;
   }
 }
