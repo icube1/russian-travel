@@ -1,6 +1,5 @@
 .lead {
-  grid-area: lead;
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   color: white;
   margin: 0 auto;
   max-width: 984px;
@@ -16,12 +15,12 @@
 @media screen and (max-width: 1279px) {
   .lead {
     margin: 48px auto;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    margin: 48px auto;
   }
 }
 

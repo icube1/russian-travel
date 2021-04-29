@@ -6,22 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>russian-travel</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="page">
   <header class="header">
-    <img src="./images/header/__logo.png" alt="Россия" class="header__logo">
+    <img src="./images/header/__logo.svg" alt="Россия" class="header__logo">
     <a href="#" class="header__lang-link header__lang-link_ru">Ru</a>
-    <a href="#" class="header__lang-link header__lang-link_en">En</a>
+    <a href="#" class="header__lang-link">En</a>
   </header>
   <main class="main">
     <section class="lead"><!--Секция Lead-->
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/lead/__lead.jpg" alt="Дорога от Пскова до Улан-Удэ" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img src="./images/lead/__lead.jpg" alt="Дорога от Пскова до Улан-Удэ" class="lead__image">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <article class="intro"><!--Секция Intro-->
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -32,11 +33,11 @@
         мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="list intro__list">
-        <li>Часовых поясов <span class="span">11</span></li>
-        <li>Объектов природного наследия ЮНЕСКО <span class="span">12</span></li>
-        <li>Объектов культурного наследия ЮНЕСКО <span class="span">16</span></li>
-        <li>Природных заповедников <span class="span">105</span></li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__span">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+        <li>Природных заповедников <span class="intro__span">105</span></li>
+        <li>Аэропортов <span class="intro__span">241</span></li>
       </ul>
     </article>
     <section class="photo-grid"><!--Секция Photo-grid-->
@@ -64,8 +65,7 @@
     </section>
     <section class="places"><!--Секция Places-->
       <ul class="list">
-        <li>
-          <div class="place ">
+        <li class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -83,10 +83,8 @@
                 россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
                 природы и запах стального, прохладного моря.</p>
             </div>
-          </div>
         </li>
-        <li>
-          <div class="place">
+        <li class="place">
             <h2 class="place__title">Кольский</h2>
             <img src="./images/places/__image.jpg" alt="Заснеженные скалы и океан" class="place__image">
             <div class="place__website">
@@ -104,10 +102,8 @@
                 давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
                 в Мурманск.</p>
             </div>
-          </div>
         </li>
-        <li>
-          <div class="place">
+        <li class="place">
             <h2 class="place__title">Алтай</h2>
             <img src="./images/places/__image(1).jpg" alt="Ноутбук и зелёный лес на фоне" class="place__image">
             <div class="place__website">
@@ -124,10 +120,8 @@
                 увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а
                 на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
             </div>
-          </div>
         </li>
-        <li>
-          <div class="place">
+        <li class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <img src="./images/places/__image(2).jpg" alt="Глубокий лёд с трещинами" class="place__image">
             <div class="place__website">
@@ -143,23 +137,22 @@
                 к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
                 фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
-          </div>
         </li>
-        <li>
-          <div class="place">
+        <li class="place">
             <h2 class="place__title">Карелия</h2>
             <img src="./images/places/__image(3).jpg" alt="Озеро и густой хвойный лес" class="place__image">
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
             </div>
-            <p class="place__paragraphs">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+            <div class="place__paragraphs">
+              <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
               национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
               полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-          </div>
+            </div>
         </li>
 
       </ul>
@@ -173,11 +166,13 @@
     </section>
   </main>
   <footer class="footer">
-    <nav><a target="_blank" href="https://yandex.ru/maps" class="footer__link">Карты</a></nav>
-    <nav><a target="_blank" href="https://yandex.ru/pogoda" class="footer__link">Погода</a></nav>
-    <nav><a target="_blank" href="https://rasp.yandex.ru" class="footer__link">Расписание</a></nav>
-    <nav><a target="_blank" href="https://calendar.yandex.ru" class="footer__link">Календарь</a></nav>
-    <nav><a target="_blank" href="https://travel.yandex.ru" class="footer__link">Путешествия</a></nav>
+    <nav class="footer__navigation">
+      <a target="_blank" href="https://yandex.ru/maps" class="footer__link">Карты</a>
+      <a target="_blank" href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+      <a target="_blank" href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
+      <a target="_blank" href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
+      <a target="_blank" href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+    </nav>
     <p class="footer__copyright">© 2021. Руслан Галимзянов</p>
   </footer>
 </body>

@@ -4,6 +4,9 @@
 }
 
 @media screen and (max-width: 1279px) {
+  .photo-grid__item {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 1023px) {

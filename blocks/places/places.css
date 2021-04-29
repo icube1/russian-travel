@@ -1,7 +1,6 @@
 .places {
-  font-family: Inter;
+  font-family: 'Inter', ‘Arial’, sans-serif;
   color: white;
-  grid-area: places;
   margin: 92px auto;
   object-fit: contain;
   max-width: 984px;
@@ -17,13 +16,13 @@
 @media screen and (max-width: 1023px) {
   .places {
     max-width: 720px;
-    margin-top: 88px;
+    margin-top: 91px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     max-width: 288px;
-    margin-top: 64px;
+    margin: 64px 0 0 0;
   }
 }
